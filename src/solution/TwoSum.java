@@ -1,3 +1,5 @@
+package solution;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -6,7 +8,7 @@ import java.util.Objects;
  * @Author : zhangyi
  * @Date : 2020-02-01 20:45
  */
-public class Solution {
+public class TwoSum {
 
     public static void main(String[] args) {
 
