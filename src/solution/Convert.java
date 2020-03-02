@@ -11,7 +11,19 @@ public class Convert {
         System.out.println(convert(s, 4));
     }
 
+
     public static String convert(String s, int numRows) {
+
+        /**
+         * 规则：0行 -》k * (2 * numRows - 2)
+         *      i行 -》k * (2 * numRows - 2) + i 和 （k + 1） * (2 * numRows - 2) - i
+         *      numRows - 1 行 -》k * (2 * numRows - 2) + numRows - 1
+         *
+         * 总结：cyc = (2 * numRows - 2)
+         *      i行 —》k * cyc + i
+         *          如果 i != 0 && i != numRows - 1
+         *          -》k * cyc  + cyc - i
+         */
 
         if (numRows == 1) {
             return s;
