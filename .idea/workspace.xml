@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/solution/Convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/solution/Convert.class" afterDir="false" />
-    </list>
+    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/FindMedianSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution/Convert.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,14 +51,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution/FindContinuousSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="271">
               <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solution/Reverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/solution/MaxArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -151,6 +148,8 @@
         <option value="$PROJECT_DIR$/src/solution/IsPalindrome.java" />
         <option value="$PROJECT_DIR$/src/solution/DistributeCandies.java" />
         <option value="$PROJECT_DIR$/src/solution/FindContinuousSequence.java" />
+        <option value="$PROJECT_DIR$/src/solution/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/solution/MaxArea.java" />
       </list>
     </option>
   </component>
@@ -195,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583510595828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583649227041" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,20 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindContinuousSequence">
-    <configuration name="Convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.Convert" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxArea">
     <configuration name="DistributeCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.DistributeCandies" />
       <module name="leetCode" />
@@ -262,8 +248,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MyAtoi" />
+    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.MaxArea" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.Reverse" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -276,19 +275,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Convert" />
-      <item itemvalue="Application.MyAtoi" />
       <item itemvalue="Application.IsPalindrome" />
       <item itemvalue="Application.DistributeCandies" />
       <item itemvalue="Application.FindContinuousSequence" />
+      <item itemvalue="Application.Reverse" />
+      <item itemvalue="Application.MaxArea" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxArea" />
+        <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.FindContinuousSequence" />
         <item itemvalue="Application.DistributeCandies" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.MyAtoi" />
-        <item itemvalue="Application.Convert" />
       </list>
     </recent_temporary>
   </component>
@@ -307,12 +306,12 @@
       <workItem from="1581687198054" duration="3246000" />
       <workItem from="1583034403805" duration="7763000" />
       <workItem from="1583210980370" duration="2257000" />
-      <workItem from="1583248838255" duration="9218000" />
+      <workItem from="1583248838255" duration="11977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38062000" />
+    <option name="totallyTimeSpent" value="40821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -334,7 +333,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15742575" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26987952" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -461,11 +460,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solution/FindContinuousSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="271">
           <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/MaxArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
