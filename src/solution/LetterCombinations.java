@@ -1,6 +1,8 @@
 package solution;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @Author : zhangyi
@@ -12,7 +14,38 @@ import java.util.List;
  */
 public class LetterCombinations {
 
-    public List<String> letterCombinations(String digits) {
+    public static void main(String[] args) {
 
+        System.out.println(letterCombinations("2378"));
     }
+
+    private static List<String> ret;
+    private static String[] strArr = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
+    public static List<String> letterCombinations(String digits) {
+
+        ret = new ArrayList<>();
+        if(Objects.isNull(digits)||"".equals(digits)){
+            return ret;
+        }
+
+        findCombinations(digits, 0, "");
+        return ret;
+    }
+
+    private static void findCombinations(String digits, int index, String c) {
+        if (index == digits.length()) {
+            ret.add(c);
+            return;
+        }
+
+        char number = digits.charAt(index);
+        String str = strArr[number - '0'];
+
+        for (int i = 0; i < str.length(); i++) {
+            findCombinations(digits, index + 1, c + str.charAt(i));
+        }
+    }
+
+
 }
