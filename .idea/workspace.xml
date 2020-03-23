@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,33 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/IsRectangleOverlap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/longestPalindromeLength.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution/ThreeSumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,13 +41,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution/FourSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="47" column="68" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="68" />
+            <state relative-caret-position="368">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solution/MinIncrementForUnique.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="54" column="24" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solution/MiddleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/solution/RemoveNthFromEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,12 +183,17 @@
         <option value="$PROJECT_DIR$/src/solution/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/solution/GetLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/solution/FourSum.java" />
+        <option value="$PROJECT_DIR$/src/solution/MinIncrementForUnique.java" />
+        <option value="$PROJECT_DIR$/src/solution/MiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/solution/RemoveNthFromEnd.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="y" value="-180" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -216,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584866689050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584948290752" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,22 +246,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FourSum">
+  <component name="RunManager" selected="Application.RemoveNthFromEnd">
     <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.FourSum" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsRectangleOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.IsRectangleOverlap" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -270,6 +273,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinIncrementForUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.MinIncrementForUnique" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.RemoveNthFromEnd" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.ThreeSumClosest" />
       <module name="leetCode" />
@@ -283,33 +312,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longestPalindromeLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.longestPalindromeLength" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.IsRectangleOverlap" />
-      <item itemvalue="Application.longestPalindromeLength" />
       <item itemvalue="Application.ThreeSumClosest" />
       <item itemvalue="Application.LetterCombinations" />
       <item itemvalue="Application.FourSum" />
+      <item itemvalue="Application.MinIncrementForUnique" />
+      <item itemvalue="Application.RemoveNthFromEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveNthFromEnd" />
+        <item itemvalue="Application.MinIncrementForUnique" />
         <item itemvalue="Application.FourSum" />
         <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.longestPalindromeLength" />
-        <item itemvalue="Application.IsRectangleOverlap" />
       </list>
     </recent_temporary>
   </component>
@@ -337,17 +353,18 @@
       <workItem from="1584355526677" duration="3255000" />
       <workItem from="1584442057320" duration="17511000" />
       <workItem from="1584692404764" duration="2969000" />
-      <workItem from="1584805976992" duration="2575000" />
+      <workItem from="1584805976992" duration="11891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93912000" />
+    <option name="totallyTimeSpent" value="103228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="1440" y="-180" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17381974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18423855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -356,8 +373,8 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19879518" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3138614" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16336633" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3138614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -698,10 +715,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solution/FourSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="47" column="68" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="68" />
+        <state relative-caret-position="368">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/MinIncrementForUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/MiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/RemoveNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
