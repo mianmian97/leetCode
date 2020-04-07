@@ -4,9 +4,7 @@
     <bookmark url="file://$USER_HOME$/mmears/ideaProjects/activity/mmears-activity-service/src/main/java/com/mmears/activity/feign/TaskMonthActivityServiceFeign.java" description="getApiActivityInfo" line="346" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/solution/Trap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/Trap.java" afterDir="false" />
-    </list>
+    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,14 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution/SimplifyPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="688">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/solution/Rotate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -88,15 +95,6 @@
                 <element signature="e#4308#4309#0" expanded="true" />
                 <element signature="e#4360#4361#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/MergeTwoLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/solution/TwoSum.java" />
@@ -197,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/solution/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/solution/Trap.java" />
         <option value="$PROJECT_DIR$/src/solution/SimplifyPath.java" />
+        <option value="$PROJECT_DIR$/src/solution/Rotate.java" />
       </list>
     </option>
   </component>
@@ -243,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586248660258" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586253137412" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimplifyPath">
+  <component name="RunManager" selected="Application.Rotate">
     <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.GameOfLife" />
       <module name="leetCode" />
@@ -271,8 +269,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDepthAfterSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MaxDepthAfterSplit" />
+    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.MyAtoi" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -284,8 +282,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MyAtoi" />
+    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.Rotate" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -324,19 +322,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxDepthAfterSplit" />
       <item itemvalue="Application.GameOfLife" />
       <item itemvalue="Application.MyAtoi" />
       <item itemvalue="Application.Trap" />
       <item itemvalue="Application.SimplifyPath" />
+      <item itemvalue="Application.Rotate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rotate" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.Trap" />
         <item itemvalue="Application.MyAtoi" />
         <item itemvalue="Application.GameOfLife" />
-        <item itemvalue="Application.MaxDepthAfterSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -370,12 +368,12 @@
       <workItem from="1585398527011" duration="3213000" />
       <workItem from="1585487933845" duration="2607000" />
       <workItem from="1585637964183" duration="14517000" />
-      <workItem from="1585918513779" duration="12620000" />
+      <workItem from="1585918513779" duration="15303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141131000" />
+    <option name="totallyTimeSpent" value="143814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="0" />
@@ -391,7 +389,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1960396" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36336634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42772278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -442,13 +440,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/solution/DistributeCandies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solution/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -850,11 +841,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/solution/SimplifyPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="688">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/Rotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
