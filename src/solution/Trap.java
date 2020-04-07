@@ -1,5 +1,8 @@
 package solution;
 
+import java.util.Objects;
+import java.util.Stack;
+
 /**
  * @Author : zhangyi
  * @Date : 2020-04-06 23:05
@@ -10,40 +13,40 @@ public class Trap {
 
     public static void main(String[] args) {
 
-        System.out.println(trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
+        System.out.println(trap(new int[]{2, 1, 0, 2}));
     }
 
     public static int trap(int[] height) {
 
-        /*int i = 0;
-        while (height[i] == 0) {
-            i++;
+        /**
+         * Stack
+         */
+        if (Objects.isNull(height) || height.length == 0) {
+            return 0;
         }
 
-        Stack<Integer> stack = new Stack<>();
         int trap = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < height.length; i++) {
+            while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
+                int cur = stack.pop();
+                while (!stack.isEmpty() && height[stack.peek()] == height[cur]) {
+                    stack.pop();
+                }
 
-        while (i < height.length) {
-
-            int hei = height[i];
-            while (height[i] > height[i + 1]) {
-                stack.push(height[i]);
-                i++;
+                if (!stack.isEmpty()) {
+                    int stackTop = stack.peek();
+                    trap += (Math.min(height[stackTop], height[i]) - height[cur]) * (i - stackTop - 1);
+                }
             }
-
-            hei = Math.min(hei, height[i + 1]);
-            while (!stack.empty()) {
-                trap += hei - stack.pop();
-            }
-            i++;
+            stack.push(i);
         }
-
-        return trap;*/
+        return trap;
 
         /**
          * 动态规划
          */
-        int trap = 0;
+        /*int trap = 0;
         int[] leftMaxHeight = new int[height.length];
         int[] rightMaxHeight = new int[height.length];
 
@@ -59,7 +62,7 @@ public class Trap {
                 trap += min - height[i];
             }
         }
-        return trap;
+        return trap;*/
 
     }
 }
