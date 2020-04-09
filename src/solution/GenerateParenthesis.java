@@ -18,12 +18,15 @@ public class GenerateParenthesis {
 
     public static List<String> generateParenthesis(int n) {
 
-        List<String> l = new ArrayList<>();
+        List<String> list = new ArrayList<>();
+
+        dfs("", n, n, list);
+
         if (n == 0) {
-            return l;
+            return list;
         }
-        dfs("", n, n, l);
-        return l;
+
+        return list;
 
     }
 
@@ -31,13 +34,19 @@ public class GenerateParenthesis {
 
         if (left == 0 && right == 0) {
             list.add(str);
+            return;
         }
+
         if (left > right) return;
+
         if (left > 0) {
             dfs(str + "(", left - 1, right, list);
         }
+
         if (right > 0) {
             dfs(str + ")", left, right - 1, list);
         }
     }
+
+
 }
