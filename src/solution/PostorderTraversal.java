@@ -1,9 +1,6 @@
 package solution;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @Author : zhangyi
@@ -31,12 +28,14 @@ public class PostorderTraversal {
 
             while (Objects.nonNull(curr)) {
                 stack.push(curr);
-                curr = curr.left;
+                nodeValList.add(curr.val);
+                curr = curr.right;
             }
             curr = stack.pop();
-            curr = curr.right;
+            curr = curr.left;
         }
 
+        Collections.reverse(nodeValList);
         return nodeValList;
     }
 
