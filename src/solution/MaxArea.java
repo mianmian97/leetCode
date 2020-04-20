@@ -26,12 +26,11 @@ public class MaxArea {
 
         //双指针法
         int max = 0;
-        int startIndex = 0, endIndex = height.length - 1;
-        while (startIndex < endIndex) {
-
-            max = Math.max(max, (endIndex - startIndex) * Math.min(height[startIndex], height[endIndex]));
-            if (height[startIndex] < height[endIndex]) startIndex++;
-            else endIndex--;
+        int start = 0, end = height.length - 1;
+        while (start < end) {
+            max = Math.max(max,( end - start) * Math.min(height[start], height[end]));
+            if (height[start] > height[end]) end--;
+            else start++;
         }
         return max;
     }
