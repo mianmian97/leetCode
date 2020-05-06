@@ -31,14 +31,14 @@ public class MergeKLists {
             for (i = 0; i < len / 2; i++) {
                 lists[i] = mergeTwoLists(lists[2 * i], lists[2 * i + 1]);
             }
-            if (len % 2 != 0) {
+            if (len % 2 == 1) {
                 lists[i] = lists[len - 1];
                 len++;
             }
             len /= 2;
         }
-        return lists[0];
 
+        return lists[0];
     }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
