@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="" />
+    <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution2/Trap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution2/Trap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/src.zip!/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1duAHK6dQWF1QxIBF4kjSP5Q1Ov" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -47,14 +61,23 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589122415504" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.StrStr">
-    <configuration name="AddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.AddStrings" />
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClimbStairs">
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.ClimbStairs" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.RemoveDuplicates" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.MaxSubArray" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.RemoveElement" />
+    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.MinPathSum" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.ReverseKGroup" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.UniquePaths" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.StrStr" />
+    <configuration name="UniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.UniquePathsWithObstacles" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseKGroup" />
-      <item itemvalue="Application.AddStrings" />
-      <item itemvalue="Application.RemoveDuplicates" />
-      <item itemvalue="Application.RemoveElement" />
-      <item itemvalue="Application.StrStr" />
+      <item itemvalue="Application.MaxSubArray" />
+      <item itemvalue="Application.UniquePaths" />
+      <item itemvalue="Application.UniquePathsWithObstacles" />
+      <item itemvalue="Application.MinPathSum" />
+      <item itemvalue="Application.ClimbStairs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StrStr" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.AddStrings" />
-        <item itemvalue="Application.ReverseKGroup" />
+        <item itemvalue="Application.ClimbStairs" />
+        <item itemvalue="Application.MinPathSum" />
+        <item itemvalue="Application.UniquePathsWithObstacles" />
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +208,9 @@
       <workItem from="1587899127234" duration="2594000" />
       <workItem from="1587981211444" duration="66000" />
       <workItem from="1588073035721" duration="28680000" />
-      <workItem from="1632661353900" duration="1110000" />
+      <workItem from="1632661353900" duration="1873000" />
+      <workItem from="1632663880993" duration="118000" />
+      <workItem from="1632664019220" duration="29917000" />
     </task>
     <servers />
   </component>
@@ -194,6 +219,23 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,6 +274,36 @@
           <url>file://$PROJECT_DIR$/src/solution/StrStr.java</url>
           <line>31</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/FourSum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/Trap.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/PermuteUnique.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/MyQueue.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/UniquePathsWithObstacles.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/ClimbStairs.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
