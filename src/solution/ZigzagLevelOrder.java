@@ -26,9 +26,7 @@ public class ZigzagLevelOrder {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 
         List<List<Integer>> result = new ArrayList<>();
-
         if (Objects.isNull(root)) return result;
-
         LinkedList<TreeNode> nodeList = new LinkedList<>();
         nodeList.addLast(root);
         nodeList.addLast(null);
