@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/ZigzagLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/ZigzagLevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/solution/ZigzagLevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/solution/ZigzagLevelOrder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
+    <property name="JavaVariableFindUsagesOptions.isSearchForAccessors" value="true" />
+    <property name="JavaVariableFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,9 +74,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClimbStairs">
-    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.ClimbStairs" />
+  <component name="RunManager" selected="Application.MissingNumber">
+    <configuration name="FindRepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.FindRepeatNumber" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.MaxSubArray" />
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.LRUCache" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.MinPathSum" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.MissingNumber" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.UniquePaths" />
+    <configuration name="ReverseLeftWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.ReverseLeftWords" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.UniquePathsWithObstacles" />
+    <configuration name="Search2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.Search2" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.UniquePaths" />
-      <item itemvalue="Application.UniquePathsWithObstacles" />
-      <item itemvalue="Application.MinPathSum" />
-      <item itemvalue="Application.ClimbStairs" />
+      <item itemvalue="Application.ReverseLeftWords" />
+      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.FindRepeatNumber" />
+      <item itemvalue="Application.Search2" />
+      <item itemvalue="Application.MissingNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClimbStairs" />
-        <item itemvalue="Application.MinPathSum" />
-        <item itemvalue="Application.UniquePathsWithObstacles" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.Search2" />
+        <item itemvalue="Application.FindRepeatNumber" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.ReverseLeftWords" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +214,7 @@
       <workItem from="1632661353900" duration="1873000" />
       <workItem from="1632663880993" duration="118000" />
       <workItem from="1632664019220" duration="34613000" />
-      <workItem from="1633146382378" duration="7194000" />
+      <workItem from="1633146382378" duration="36043000" />
     </task>
     <servers />
   </component>
@@ -307,7 +310,37 @@
           <line>27</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/sort_search/BinarySearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/ReverseList.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/LRUCache.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/FindRepeatNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/MissingNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="solution2.LRUCache$MLinkedNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
