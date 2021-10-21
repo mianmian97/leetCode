@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="363991a9-fdbc-430c-8519-e3d53fa61ea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/solution/ZigzagLevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/solution/ZigzagLevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/solution2/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/solution2/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/solution2/sort_search/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/solution2/sort_search/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution2/sort_search/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution2/sort_search/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +76,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MissingNumber">
-    <configuration name="FindRepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.FindRepeatNumber" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.FindNumberIn2DArray" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.LRUCache" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.sort_search.InsertSort" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution2.*" />
+          <option name="PATTERN" value="solution2.sort_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLeftWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution2.ReverseLeftWords" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution2.sort_search.QuickSort" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution2.*" />
+          <option name="PATTERN" value="solution2.sort_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseLeftWords" />
-      <item itemvalue="Application.LRUCache" />
-      <item itemvalue="Application.FindRepeatNumber" />
       <item itemvalue="Application.Search2" />
       <item itemvalue="Application.MissingNumber" />
+      <item itemvalue="Application.FindNumberIn2DArray" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.FindNumberIn2DArray" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.Search2" />
-        <item itemvalue="Application.FindRepeatNumber" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.ReverseLeftWords" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,7 @@
       <workItem from="1632661353900" duration="1873000" />
       <workItem from="1632663880993" duration="118000" />
       <workItem from="1632664019220" duration="34613000" />
-      <workItem from="1633146382378" duration="36043000" />
+      <workItem from="1633146382378" duration="54086000" />
     </task>
     <servers />
   </component>
@@ -334,6 +336,11 @@
           <url>file://$PROJECT_DIR$/src/solution2/MissingNumber.java</url>
           <line>14</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solution2/FindNumberIn2DArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
